@@ -44,6 +44,14 @@ export const TODAS_LAS_PREGUNTAS = {
     "La constancia vence lo que la dicha no alcanza."
   ],
 
+  // Información general
+  "¿Qué hago si pierdo mi credencial?":
+    "Si pierdes tu credencial, repórtalo inmediatamente en servicios escolares y solicita una reposición. Lleva una identificación oficial y una foto tamaño infantil.",
+  "¿Dónde reporto un problema con las instalaciones?":
+    "Puedes reportar problemas con las instalaciones en el área de mantenimiento, ubicada en el edificio de gobierno, planta baja.",
+  "¿Cómo puedo acceder a la red WiFi de UPIICSA?":
+    "Conéctate a la red 'UPIICSA_WiFi' e inicia sesión con tu número de boleta y contraseña asignada por SAES.",
+
   // Información sobre UPIICSA
   "¿Qué significa UPIICSA?": 
     "UPIICSA significa 'Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales y Administrativas'. Es una unidad académica del Instituto Politécnico Nacional (IPN) fundada en 1972.",
@@ -52,11 +60,21 @@ export const TODAS_LAS_PREGUNTAS = {
   "¿Cuál es la historia de UPIICSA?":
     "UPIICSA fue fundada el 6 de noviembre de 1972. Surgió como respuesta a la necesidad de formar profesionales que combinaran conocimientos de ingeniería con habilidades administrativas. Fue una unidad pionera en su concepto interdisciplinario.",
   
+  // Información para egresados
+  "¿Cómo tramito mi carta de pasante?":
+  "La carta de pasante se solicita en servicios escolares una vez que cumplas con todos los créditos de tu plan de estudios y completes tu servicio social.",
+"¿Qué opciones tengo para el proceso de titulación?":
+  "Puedes elegir entre las siguientes opciones:\n- Tesis o tesina.\n- Proyecto terminal.\n- Promedio destacado.\n- Diplomado o seminario.\nConsulta con tu coordinador académico para más detalles.",
+
   // Eventos y fechas importantes
   "¿Cuándo es la siguiente semana académica?":
     "La Semana Académica UPIICSA se celebra generalmente en marzo. Las fechas exactas se anuncian al inicio de cada año en <a href='https://www.upiicsa.ipn.mx' target='_blank' rel='noopener noreferrer' class='text-blue-500 hover:text-blue-700 underline'>www.upiicsa.ipn.mx</a>",
   "¿Cuándo son las inscripciones?":
     "Las inscripciones se realizan según el calendario oficial del IPN. Normalmente son en enero para el semestre A y en agosto para el semestre B. Consulta las fechas exactas en el SAES.",
+  "¿Cómo me inscribo en los eventos culturales de UPIICSA?":
+    "Puedes inscribirte en el departamento de actividades culturales ubicado en el edificio cultural, planta baja. Lleva tu credencial vigente.",
+  "¿Cuándo es la próxima feria de empleo?":
+    "La feria de empleo se organiza cada semestre. Las fechas se publican en la página oficial de UPIICSA: <a href='https://www.upiicsa.ipn.mx/eventos' target='_blank' rel='noopener noreferrer' class='text-blue-500 hover:text-blue-700 underline'>Feria de Empleo</a>",
   
   // Instalaciones y ubicaciones específicas
   "¿Dónde está la cafetería?":
@@ -64,6 +82,26 @@ export const TODAS_LAS_PREGUNTAS = {
   "¿Dónde están las canchas deportivas?":
     "Las instalaciones deportivas incluyen: canchas de básquetbol y voleibol junto al edificio de graduados, campo de fútbol en la parte trasera, y gimnasio en el edificio cultural.",
   
+  // Información sobre becas
+  "¿Qué tipos de becas puedo solicitar en UPIICSA?":
+    "Puedes solicitar becas académicas, deportivas, culturales y de manutención. Consulta la convocatoria vigente aquí: <a href='https://www.upiicsa.ipn.mx/estudiantes/becas.html' target='_blank' rel='noopener noreferrer' class='text-blue-500 hover:text-blue-700 underline'>Becas UPIICSA</a>",
+  "¿Qué requisitos debo cumplir para solicitar una beca?":
+    "Generalmente necesitas:\n- Estar inscrito como estudiante regular.\n- Tener un promedio mínimo de 8.0.\n- No tener materias reprobadas.\nConsulta las convocatorias específicas para más detalles.",
+
+  // Información académica adicional
+  "¿Cómo puedo recuperar materias reprobadas?":
+    "Las materias reprobadas se pueden recursar en el siguiente semestre o inscribiéndote en los cursos de regularización que ofrece UPIICSA. Consulta el calendario académico para más información.",
+  "¿Qué hago si tengo problemas con mi horario en SAES?":
+    "Puedes acudir al área de soporte técnico en el edificio de cómputo o contactar a tu coordinador académico para resolver el problema.",
+  "¿Qué documentos necesito para reinscribirme?":
+    "Para reinscribirte necesitas:\n1) Comprobante de pago de reinscripción.\n2) Boleta de calificaciones del semestre anterior.\n3) No adeudar materias obligatorias.",
+
+  // Servicios y recursos
+  "¿Dónde puedo imprimir documentos en UPIICSA?":
+    "Puedes utilizar los servicios de impresión disponibles en el edificio cultural, planta baja, o en las copisterías cercanas a la entrada principal.",
+  "¿Qué servicios ofrece el área médica?":
+    "El área médica ofrece consultas generales, primeros auxilios y orientación para emergencias mayores. Se encuentra en el edificio de gobierno, planta baja.",
+    
   // Clubs y actividades
   "¿Qué clubs hay en UPIICSA?": 
     "UPIICSA cuenta con diversos clubs: Programación, Robótica, Emprendimiento, Idiomas, Ajedrez, Teatro, Danza, Música, entre otros. Visita el departamento de actividades culturales para más información.",
@@ -141,28 +179,4 @@ export const TODAS_LAS_PREGUNTAS = {
     "Por supuesto, ¿es algo académico, personal o administrativo? Así podré orientarte mejor 🤝"
   ],
   
-  // Información detallada sobre carreras
-  "¿Qué significa ISC?": 
-    "ISC significa Ingeniería en Sistemas Computacionales. Es una carrera enfocada en el desarrollo de software, sistemas computacionales y tecnologías de la información. Los egresados pueden trabajar en desarrollo de software, administración de sistemas, ciberseguridad y más.",
-  
-  "¿Qué significa IM?":
-    "IM significa Ingeniería Mecánica. Esta carrera se enfoca en el diseño, manufactura y mantenimiento de sistemas mecánicos. Los egresados pueden trabajar en industrias como automotriz, aeroespacial, manufactura y más.",
-  
-  "¿Qué significa IC?":
-    "IC significa Ingeniería en Informática. Esta carrera se centra en la gestión de tecnologías de información, redes y sistemas empresariales. Los egresados pueden trabajar en consultoría IT, administración de proyectos tecnológicos y más.",
-  
-  "¿Qué significa IIA?":
-    "IIA significa Ingeniería Industrial y Administrativa. Esta carrera combina conocimientos de ingeniería industrial con habilidades administrativas. Los egresados pueden trabajar en optimización de procesos, gestión de calidad, logística y más.",
-  
-  "¿Qué significa LA?":
-    "LA significa Licenciatura en Administración. Esta carrera forma profesionales en la gestión y dirección de organizaciones. Los egresados pueden trabajar en áreas como recursos humanos, finanzas, marketing y más.",
-
-  "¿Qué significa cada abreviatura?":
-    "En UPIICSA tenemos las siguientes carreras:\n\n" +
-    "- ISC: Ingeniería en Sistemas Computacionales\n" +
-    "- IM: Ingeniería Mecánica\n" +
-    "- IC: Ingeniería en Informática\n" +
-    "- IIA: Ingeniería Industrial y Administrativa\n" +
-    "- LA: Licenciatura en Administración\n\n" +
-    "¿Te gustaría saber más detalles sobre alguna carrera en específico?",
-};
+  };
